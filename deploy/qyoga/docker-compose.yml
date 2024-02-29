@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  app:
+    logging:
+      driver: journald
+    image: ghcr.io/d-r-q/qyoga-nsu:latest
+
+    restart: always
+
+    ports:
+      - "8080:8080"
