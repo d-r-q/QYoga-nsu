@@ -32,6 +32,9 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-testcontainers")
 	testImplementation("org.springframework.security:spring-security-test")
 	testImplementation("org.testcontainers:junit-jupiter")
+
+	testImplementation("io.rest-assured:rest-assured:5.3.2")
+	testImplementation("io.rest-assured:kotlin-extensions:5.3.2")
 }
 
 tasks.withType<KotlinCompile> {
